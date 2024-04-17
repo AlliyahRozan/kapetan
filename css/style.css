@@ -33,6 +33,14 @@ section {
     background-color: var(--background-color);
 }
 
+#logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
 .heading {
     font-size: 9rem;
     text-transform: uppercase;
@@ -90,6 +98,8 @@ section {
 .header .logo {
     color: var(--main-color);
     font-size: 2.3rem;
+    display: flex;
+    align-items: center;
 }
 
 .header .logo i {
@@ -541,7 +551,7 @@ section {
         top: 99%;
         left: 0;
         right: 0;
-        background: #fff;
+        background: var(--background-color);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
