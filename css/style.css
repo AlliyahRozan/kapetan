@@ -33,7 +33,7 @@ section {
     background-color: var(--background-color);
 }
 
-#logo{
+#logo {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -100,6 +100,7 @@ section {
     font-size: 2.3rem;
     display: flex;
     align-items: center;
+    font-variant: small-caps;
 }
 
 .header .logo i {
@@ -109,6 +110,7 @@ section {
 .header .navbar a {
     margin: 0 1rem;
     font-size: 1.7rem;
+    font-variant: small-caps;
     color: var(--main-color);
 }
 
@@ -174,9 +176,18 @@ section {
 }
 
 .home .row .content h3 {
-    font-size: 6.5rem;
-    color: var(--background-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10rem;
+    background: url(../image/dark-sea.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+}
+
+.home .row .content p {
+    background-color: var(--main-color);
+    padding: 4rem;
+    margin-right: 10rem;
 }
 
 .home .image-slider {
@@ -564,6 +575,7 @@ section {
         font-size: 2.2rem;
         margin: 0;
         padding: 1.5rem 2rem;
+        
     }
 
     .home {
@@ -572,6 +584,11 @@ section {
 
     .home .row .content h3 {
         font-size: 4rem;
+    }
+
+    .home .row .content p {
+        margin: 5rem;
+        padding: 5rem;
     }
 
     .menu .box-container .box {
